@@ -1,62 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Layout_Practice</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="index.css">
+    <title>Practice Layout</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-<div class="flex-header">
-  <div id = "header-item-left">Header-item-left</div>
-  <div id = "header-item-right">Header-item-right</div>
-</div>
-
-<div class="navigation">
-    <div class="dropdown">
-        <button class="dropbtn">Trang Chu</button>
-    </div>
-
-    <div class="dropdown">
-        <button class="dropbtn">Gioi thieu</button>
-    </div>
-
-    <div class="dropdown">
-        <button class="dropbtn">San pham</button>
-        <div class="dropdown-content">
-            <a href=#>San pham 1</a>
-            <a href=#>San pham 2</a>
-            <a href=#>San pham 3</a>
-            <a href=#>San pham 4</a>
+    <header class="header">
+        <div class= "main">
+            <div class = "left-part"></div>
+            <div class = "right-part">Test demo text</div>        
+        </div>
+    </header>
+    <div class="navi">
+        <div class="main">
+            <ul class="menu-top">
+                <li><a href="#">Trang Chu</a></li>
+                <li><a href="#">Gioi Thieu</a></li>
+                <li>
+                    <a href="#">San Pham</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">San Pham 1</a></li>
+                        <li><a href="#">San Pham 2</a></li>
+                        <li><a href="#">San Pham 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Lien He</a></li>
+                <li><a href="#">Ho Tro Truc Tuyen</a></li>
+            </ul>
         </div>
     </div>
-
-    <div class="dropdown">
-        <button class="dropbtn">Lien he</button>
-    </div>
-
-    <div class="dropdown">
-         <button class="dropbtn">Ho tro truc tuyen</button>
-    </div>
-</div>
-
-<div class="flex-content">
-   <div id="flex-content-main">
-       <div id= "content-main-left">
-            <div id="content-main-left-1">
-                <div id="content-up"></div>
-                <div id="content-down">
-                    <div id="content-smallest-left"></div>
-                    <div id="content-smallest-middle"></div>
-                    <div id="content-smallest-right"></div>
+    
+    <div class="main">
+        <div class="content">
+            <div class="box-left">
+                <div class="black">
+                    <div class="left">
+                        <div class="top"></div>
+                        <div class="clear"></div>
+                        <div class="bottom">
+                            <div class="item"></div>
+                        </div>
+                        <div class="bottom">
+                            <div class ="middle">
+                                    <div class="item"></div>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                                <div class="item"></div>
+                        </div>                                                    
+                    </div>
+                    <div class="right"></div>
                 </div>
             </div>
-            <div id="content-main-left-2"></div>
-       </div>
-       <div id= "content-main-right"></div>
-   </div> 
-
-</div> 
-
+            <div class="box-right"></div>
+        </div>
+    </div>
 </body>
 </html>
