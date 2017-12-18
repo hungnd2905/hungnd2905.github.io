@@ -160,3 +160,18 @@ CONTENT
     min-height: 430px;
     background-color:rgb(68, 0, 255);
 }
+.row {
+    margin-left:-5px;
+    margin-right:-5px;
+}
+.small-box {
+	width:10%;
+	float:left;
+    padding: 5px;
+}
+.small-box .item {
+    width:100%;
+    float:left;
+    background-color: red;
+    min-height: 100px;
+}
